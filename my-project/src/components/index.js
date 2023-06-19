@@ -9,5 +9,5 @@ export {
   About,
   Experience,
   Works,
-  Contact
+  Contact,
 }
