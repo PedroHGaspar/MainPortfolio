@@ -1,9 +1,79 @@
-import React from 'react'
+import React from "react";
+import { FaHome } from "react-icons/fa";
+import { SiDiscord, SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
+import { SlEnvolope } from "react-icons/sl";
 
-const Navbar = () => {
+import { MotionDiv } from "./use.client";
+
+const Navbar = (props: { animate?: boolean }) => {
+  const { animate = true } = props;
+
+  const handleContactClick = () => {
+    const emailAddress = "pedraoh498@gmail.com";
+    const subject = "Contact from your website";
+    const body = "Hello, I would like to get in touch with you.";
+
+    const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+  };
+
   return (
-    <div>Navbar</div>
-  )
-}
+    <header className="sticky top-0 z-50 mx-auto flex max-w-7xl items-start justify-between bg-stone-800 p-5 pt-8 xl:items-center">
+      <MotionDiv
+        {...(animate && {
+          initial: { opacity: 0, x: -500 },
+          animate: { opacity: 1, x: 0 },
+          transition: { duration: 1.5 },
+        })}
+        className="flex items-center"
+      >
+        <a href="/#hero">
+          <FaHome
+            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
+            title="Go home"
+          />
+        </a>
 
-export default Navbar
+        <a href="https://github.com/PedroHGaspar" target="_blank">
+          <SiGithub
+            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
+            title="Github"
+          />
+        </a>
+        <a href="https://instagram.com/pedroggaspar" target="_blank">
+          <SiInstagram
+            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
+            title="Instagram"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/pedro-henrique-gaspar-826978239/" target="_blank">
+          <SiLinkedin
+            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
+            title="LinkedIn"
+          />
+        </a>
+      </MotionDiv>
+
+      <MotionDiv
+        {...(animate && {
+          initial: { opacity: 0, x: 500 },
+          animate: { opacity: 1, x: 0 },
+          transition: { duration: 1.5 },
+        })}
+        className="flex items-center"
+      >
+        <a href="#" className="group flex cursor-pointer items-center" onClick={handleContactClick}>
+          <SlEnvolope className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors group-hover:fill-gray-300" />
+          <span className="hidden font-cal text-sm uppercase text-gray-400 group-hover:text-gray-300 md:inline-flex">
+            Contact
+          </span>
+        </a>
+      </MotionDiv>
+    </header>
+  );
+};
+
+export default Navbar;
