@@ -9,10 +9,10 @@ const About = () => {
           className="flex h-screen flex-col items-center justify-center space-y-8 text-center"
         >
           <div className="relative flex items-center justify-center">
-            <div className="absolute mt-52 h-[200px] w-[200px] animate-ping rounded-full border border-yellow-400" />
+            <div className="absolute mt-52 h-[200px] w-[200px] animate-ping rounded-full border border-[#444444]" />
             <div className="absolute mt-52 h-[300px] w-[300px] rounded-full border border-[#333333]" />
             <div className="absolute mt-52 h-[500px] w-[500px] rounded-full border border-[#333333]" />
-            <div className="absolute mt-52 h-[650px] w-[650px] animate-pulse rounded-full border text-gray-400" />
+            <div className="absolute mt-52 h-[650px] w-[650px] animate-pulse rounded-full border border-yellow-400" />
             <div className="absolute mt-52 h-[800px] w-[800px] rounded-full border border-[#333333]" />
           </div>
           <img
@@ -26,7 +26,7 @@ const About = () => {
               Software Engineer
             </h2>
             <h1 className="px-10 text-3xl font-semibold md:text-4xl lg:text-6xl text-white">
-              Pedro Gaspar
+              Pedro H. Gaspar
             </h1>
             {/* <div className="pt-5">
               {["Experience", "Works"].map((section) => (
