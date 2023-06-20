@@ -1,6 +1,6 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
-import { SiDiscord, SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiInstagram } from "react-icons/si";
 import { SlEnvolope } from "react-icons/sl";
 
 import { MotionDiv } from "./use.client";
@@ -38,19 +38,19 @@ const Navbar = (props: { animate?: boolean }) => {
             />
           </a>
 
-          <a href="https://github.com/PedroHGaspar" target="_blank">
+          <a href="https://github.com/PedroHGaspar" target="_blank" rel="noreferrer">
             <SiGithub
               className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
               title="Github"
             />
           </a>
-          <a href="https://instagram.com/pedroggaspar" target="_blank">
+          <a href="https://instagram.com/pedroggaspar" target="_blank" rel="noreferrer">
             <SiInstagram
               className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
               title="Instagram"
             />
           </a>
-          <a href="https://www.linkedin.com/in/pedro-henrique-gaspar-826978239/" target="_blank">
+          <a href="https://www.linkedin.com/in/pedro-henrique-gaspar-826978239/" target="_blank" rel="noreferrer">
             <SiLinkedin
               className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
               title="LinkedIn"
@@ -66,7 +66,7 @@ const Navbar = (props: { animate?: boolean }) => {
           })}
           className="flex items-center"
         >
-          <a href="#" className="group flex cursor-pointer items-center" onClick={handleContactClick}>
+          <a href="#" className="group flex cursor-pointer items-center font-bold" onClick={handleContactClick}>
             <SlEnvolope className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors group-hover:fill-gray-300" />
             <span className="hidden font-cal text-sm uppercase text-gray-400 group-hover:text-gray-300 md:inline-flex">
               Contact

@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Navbar, Works } from "./components";
+import { About, Experience, Navbar, Works } from "./components";
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
         style={{
           backgroundColor: "#292524",
           minHeight: "100vh",
-          minWidth: "100vw",
+          // minWidth: "100vw",
         }}
       >
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
@@ -17,9 +17,6 @@ const App = () => {
         <About />
         <Experience />
         <Works />
-        <div className="relative z-0">
-          <Contact />
-        </div>
       </div>
     </BrowserRouter>
   );
