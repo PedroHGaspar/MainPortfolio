@@ -21,8 +21,8 @@ const Navbar = (props: { animate?: boolean }) => {
   };
 
   return (
-    <div className="navbar-wrapper" style={{ overflowX: "hidden" }}>
-      <header className="sticky top-0 z-50 mx-auto flex max-w-7xl items-start justify-between bg-stone-800 p-5 pt-8 xl:items-center">
+    <div className="navbar-wrapper" style={{ overflowX: "hidden", display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <header className="sticky top-0 z-50 mx-auto flex max-w-7xl items-start justify-between bg-stone-800 p-5 pt-8 xl:items-center" style={{ position: 'fixed', display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
         <MotionDiv
           {...(animate && {
             initial: { opacity: 0, x: -500 },
