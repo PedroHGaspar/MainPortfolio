@@ -6,7 +6,7 @@ const About = () => {
       {/* <Header /> */}
       <section id="hero" style={{ overflow: "hidden" }}>
         <div
-          className="flex h-screen flex-col items-center justify-center space-y-8 text-center"
+          className="flex h-screen flex-col items-center justify-center space-y-8 text-center" style={{ marginTop: "5rem" }}
         >
           <div className="relative flex items-center justify-center">
             <div className="absolute mt-52 h-[200px] w-[200px] animate-ping rounded-full border border-[#444444]" />
