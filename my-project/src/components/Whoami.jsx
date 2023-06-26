@@ -7,7 +7,7 @@ const Whoami = () => {
     return (
         <>
 
-            <section id="about" className="container mx-auto flex-1 px-1 md:px-4">
+            <section id="about" className="container mx-auto flex-1 px-1 md:px-4" style={{ maxWidth: "1320px", margin: "0 auto"}}>
                 <MotionDiv
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}

@@ -4,7 +4,7 @@ import { MotionDiv } from "./use.client";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience" style={{ maxWidth: "1320px", margin: "0 auto"}}>
     <MotionDiv
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

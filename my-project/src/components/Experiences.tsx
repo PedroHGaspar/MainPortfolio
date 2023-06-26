@@ -100,7 +100,7 @@ export function ExperienceCard(props: Experience) {
         </div>
       )}
 
-      <div className="px-0 md:px-10">
+      <div className="px-0 md:px-10" style={{ maxWidth: "-webkit-fill-available" }}>
         <h4 className="text-2xl font-medium md:text-4xl text-white">{props.title}</h4>
         <p className="mt-1 text-lg font-bold md:text-2xl text-white">{props.subtitle}</p>
         <div className="my-2 flex space-x-2">

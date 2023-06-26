@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       {/* <Header /> */}
-      <section id="hero" style={{ overflow: "hidden" }}>
+      <section id="hero" style={{ overflow: "hidden", maxWidth: "1320px", margin: "0 auto"}}>
         <div
           className="flex h-screen flex-col items-center justify-center space-y-8 text-center" style={{ marginTop: "5rem" }}
         >
