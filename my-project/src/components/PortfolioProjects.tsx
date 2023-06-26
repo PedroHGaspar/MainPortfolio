@@ -1,6 +1,8 @@
 import clsx from "clsx";
 import profile1 from "../components/assets/foto1.jpeg";
 import profile3 from "../components/assets/foto3.jpeg";
+import portfolio3d from "../components/assets/portfolio3d.png";
+import portfolio3d2 from "../components/assets/portfolio3d2.png";
 import React from "react";
 
 import { MotionDiv } from "./use.client";
@@ -23,19 +25,22 @@ export const portfolio: PortfolioProjects[] = [
         title: "SENAI Hackaton",
         subtitle: "3º lugar no primeiro hackaton do senai de São José.",
         text: [
-            "Um hackaton com um problema real: excesso de filas nas cantinas do senai de toda Santa Catarina. Éramos responsáveis por desenvolver uma aplicação e uma apresentação 'pitch' de até 01:30 para vendermos nosso produto para as empresas convidadas para o evento, que eram: Softplan, Globo, Intelbras e Nexxera. Eu e minha equipe conseguimos finalizar em 3º lugar de todas as 20 equipes, foi um projeto muito legal que nos fez fazer amizades, contatos e melhorar nossa apresentação em público e habilidades de resolver problemas com urgência, já que tivemos apenas 4 horas pra desenvolver um modelo de aplicativo e uma apresentação",
+            "Um hackaton com um problema real: excesso de filas nas cantinas do senai de toda Santa Catarina. Éramos responsáveis por desenvolver uma aplicação e uma apresentação 'pitch' de até 01:30 para vendermos nosso produto para as empresas convidadas para o evento, que eram: Softplan, Globo, Intelbras e Nexxera.",
+            "Eu e minha equipe conseguimos finalizar em 3º lugar de todas as 20 equipes, foi um projeto muito legal que nos fez fazer amizades, contatos e melhorar nossa apresentação em público e habilidades de resolver problemas com urgência, já que tivemos apenas 4 horas pra desenvolver um modelo de aplicativo e uma apresentação."
         ],
     },
     {
         tag: "Portfolio",
         img: [
-            profile1,
-            profile3,
+            portfolio3d,
+            portfolio3d2
         ],
-        title: "SENAI Hackaton",
-        subtitle: "3º lugar no primeiro hackaton do senai de São José.",
+        title: "Portfolio 3D",
+        subtitle: "Meus estudos iniciais em Three.js, Framer Motion, React Fiber, React Drei e Tailwind CSS.",
         text: [
-            "Um hackaton com um problema real: excesso de filas nas cantinas do senai de toda Santa Catarina. Éramos responsáveis por desenvolver uma aplicação e uma apresentação 'pitch' de até 01:30 para vendermos nosso produto para as empresas convidadas para o evento, que eram: Softplan, Globo, Intelbras e Nexxera. Eu e minha equipe conseguimos finalizar em 3º lugar de todas as 20 equipes, foi um projeto muito legal que nos fez fazer amizades, contatos e melhorar nossa apresentação em público e habilidades de resolver problemas com urgência, já que tivemos apenas 4 horas pra desenvolver um modelo de aplicativo e uma apresentação",
+            "Um projeto feito em 3D com Three.js para fins de estudo e para fins de ter meu primeiro portfolio.",
+            "Estudo de Tailwind CSS e Framer Motion pra aplicar em projetos subsequentes.",
+            "https://pedrohgaspar-portfolio.vercel.app/"
         ],
     },
 ];
@@ -58,6 +63,7 @@ export function PortfolioCard(props: PortfolioProjects) {
                             fill
                             alt=""
                             className="rounded-full object-cover object-center"
+                            style={{ width: "auto", height: "12rem" }}
                         />
                     </MotionDiv>
                 ))}
@@ -77,7 +83,7 @@ export function PortfolioCard(props: PortfolioProjects) {
 
             <div className="px-0 md:px-10" style={{ maxWidth: "-webkit-fill-available" }}>
                 <h4 className="text-2xl font-medium md:text-4xl text-white">{props.title}</h4>
-                <p className="mt-1 text-lg font-bold md:text-2xl text-white">{props.subtitle}</p>
+                <p className="mt-1 text-lg font-bold md:text-2xl text-white" style={{ marginBottom: '1rem' }}>{props.subtitle}</p>
 
                 <ul className="ml-5 list-disc space-y-4 text-white md:text-lg font-sans">
                     {props.text.map((bullet) => (
