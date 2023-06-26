@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
     stackIcons: [SiCplusplus, SiTypescript, GiProcessor, FaDatabase, SiJavascript, SiReact, SiPostgresql, SiHtml5, SiCss3, SiExpo, SiMysql],
     period: ["2022", "present"],
     text: [
-      "Atualmente estou fazendo o curso técnico de Análise e Desenvolvimento de Sistemas na instituição SENAI, aprendendo e sendo apresentado pra muitas tecnologias com propósitos industriais, desde programação de baixo nível à programação de alto nível, banco de dados, projetos completos, desafios e gerenciamento de projetos e equipes.",
+      "Atualmente estou fazendo o curso técnico de Análise e Desenvolvimento de Sistemas na instituição de ensino SENAI, aprendendo e sendo apresentado pra muitas tecnologias com propósitos industriais, desde programação de baixo nível à programação de alto nível, banco de dados, projetos completos, desafios e gerenciamento de projetos e equipes.",
     ],
   },
   {
@@ -52,7 +52,7 @@ export const experiences: Experience[] = [
     period: ["NOV 22", "JUN 23"],
     text: [
       "Responsável por desenvolver e manter as aplicações dos clientes no meu squad.",
-      "Desenvolvimento focado em React, CSS3, JSON, Apollo Graphql e VTEX.",
+      "Desenvolvimento focado em React, Typescript, CSS3, JSON, Apollo Graphql e VTEX.",
       "Lojas em que atuei: Esbelt, Loungerie, O Pescador de Ofertas, SenffNet, Docile e Romitex.",
     ],
   },

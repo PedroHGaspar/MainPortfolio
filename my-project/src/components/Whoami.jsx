@@ -38,7 +38,7 @@ const Whoami = () => {
                             <p className="font-semibold text-2xl text-white font-sans">
                                 Eu sou um Desenvolvedor de Software apaixonado em criar e aprimorar.
                                 Estou ansioso para aprender coisas novas e nunca terei medo de explorar novas tecnologias.
-                                Atualmente tenho certa especialidade em Front End, e estou começando a estudar e aprimorar meu Back End.
+                                Atualmente tenho certa especialidade em Front End, e estou começando a estudar e aprimorar meu Back End com tecnologias como Node.js e Python.
                             </p>
                         </div>
                     </div>

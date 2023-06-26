@@ -9,6 +9,7 @@ import login1 from "../components/assets/login1.png";
 import login2 from "../components/assets/login2.png";
 import snake from "../components/assets/snake.png";
 import React from "react";
+import './style.css';
 
 import { MotionDiv } from "./use.client";
 
@@ -107,7 +108,7 @@ export function PortfolioCard(props: PortfolioProjects) {
                             src={image}
                             fill
                             alt=""
-                            className="rounded-full object-cover object-center"
+                            className="rounded-full object-cover object-center testeTotal"
                             style={{ width: "12rem", height: "12rem" }}
                         />
                     </MotionDiv>

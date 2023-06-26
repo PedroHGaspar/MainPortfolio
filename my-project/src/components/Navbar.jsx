@@ -11,7 +11,7 @@ const Navbar = (props: { animate?: boolean }) => {
   const handleContactClick = () => {
     const emailAddress = "pedraoh498@gmail.com";
     const subject = "Contact from your website";
-    const body = "Hello, I would like to get in touch with you.";
+    const body = "Hello, I would like to get in touch with you to talk about...";
 
     const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(
       subject
