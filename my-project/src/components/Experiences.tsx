@@ -105,7 +105,7 @@ export function ExperienceCard(props: Experience) {
         <p className="mt-1 text-lg font-bold md:text-2xl text-white">{props.subtitle}</p>
         <div className="my-2 flex space-x-2">
           {props.stackIcons?.map((Icon, index) => (
-            <Icon key={index} className="h-10 w-10 mt-3 text-cyan-700" />
+            <Icon key={index} className="h-10 w-10 mt-3 text-blue-400" />
           ))}
         </div>
 

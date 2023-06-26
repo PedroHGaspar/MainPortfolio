@@ -7,6 +7,7 @@ import pic1 from "../components/assets/pic1.jpeg";
 import pic2 from "../components/assets/pic2.jpg";
 import login1 from "../components/assets/login1.png";
 import login2 from "../components/assets/login2.png";
+import snake from "../components/assets/snake.png";
 import React from "react";
 
 import { MotionDiv } from "./use.client";
@@ -44,7 +45,7 @@ export const portfolio: PortfolioProjects[] = [
         text: [
             "Um projeto feito em 3D com Three.js para fins de estudo e para fins de ter meu primeiro portfolio.",
             "Estudo de Tailwind CSS e Framer Motion pra aplicar em projetos subsequentes.",
-            "https://pedrohgaspar-portfolio.vercel.app/"
+            "Confira o projeto online: https://pedrohgaspar-portfolio.vercel.app/"
         ],
     },
     {
@@ -73,6 +74,18 @@ export const portfolio: PortfolioProjects[] = [
             "Um componente custom feito em React.js puro com comunicação e inserção de dados no Firebase com criptografia para LGPD.",
             "Responsividade total para todos os dispositivos.",
             "Projeto em andamento em conjunto com 2 colegas, estamos desenvolvendo a ideia do que virá a seguir."
+        ],
+    },
+    {
+        tag: "Portfolio",
+        img: [
+            snake
+        ],
+        title: "Snake Game",
+        subtitle: "Um jogo da cobrinha feito no 1º semestre do curso de Desenvolvimentoi de Sistemas.",
+        text: [
+            "Meu primeiro projeto de todos em javascript puro.",
+            "Snake game feito com outros 2 colegas."
         ],
     },
 ];
