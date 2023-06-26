@@ -3,6 +3,10 @@ import profile1 from "../components/assets/foto1.jpeg";
 import profile3 from "../components/assets/foto3.jpeg";
 import portfolio3d from "../components/assets/portfolio3d.png";
 import portfolio3d2 from "../components/assets/portfolio3d2.png";
+import pic1 from "../components/assets/pic1.jpeg";
+import pic2 from "../components/assets/pic2.jpg";
+import login1 from "../components/assets/login1.png";
+import login2 from "../components/assets/login2.png";
 import React from "react";
 
 import { MotionDiv } from "./use.client";
@@ -43,6 +47,34 @@ export const portfolio: PortfolioProjects[] = [
             "https://pedrohgaspar-portfolio.vercel.app/"
         ],
     },
+    {
+        tag: "Portfolio",
+        img: [
+            pic1,
+            pic2
+        ],
+        title: "React Native App",
+        subtitle: "Um aplicativo feito em React Native para procura de emprego de Desenvolvedores.",
+        text: [
+            "Um aplicativo feito para desenvolvedores procurarem vagas de emprego nas proximidades e em outras cidades.",
+            "Comunicação com API e renderização de dados das vagas vindos da API.",
+            "Mais imagens e detalhes do projeto no link: https://github.com/PedroHGaspar/Project-React-Native"
+        ],
+    },
+    {
+        tag: "Project",
+        img: [
+            login1,
+            login2
+        ],
+        title: "Login/Register com Firebase",
+        subtitle: "Uma funcionalidade feita em React Native com Firebase.",
+        text: [
+            "Um componente custom feito em React.js puro com comunicação e inserção de dados no Firebase com criptografia para LGPD.",
+            "Responsividade total para todos os dispositivos.",
+            "Projeto em andamento em conjunto com 2 colegas, estamos desenvolvendo a ideia do que virá a seguir."
+        ],
+    },
 ];
 
 export function PortfolioCard(props: PortfolioProjects) {
@@ -63,7 +95,7 @@ export function PortfolioCard(props: PortfolioProjects) {
                             fill
                             alt=""
                             className="rounded-full object-cover object-center"
-                            style={{ width: "auto", height: "12rem" }}
+                            style={{ width: "12rem", height: "12rem" }}
                         />
                     </MotionDiv>
                 ))}
