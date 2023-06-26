@@ -39,6 +39,7 @@ const Whoami = () => {
                                 Eu sou um Desenvolvedor de Software apaixonado em criar e aprimorar.
                                 Estou ansioso para aprender coisas novas e nunca terei medo de explorar novas tecnologias.
                                 Atualmente tenho certa especialidade em Front End, e estou começando a estudar e aprimorar meu Back End com tecnologias como Node.js e Python.
+                                Como pessoa, me divirto com boas companhias e gosto de ir à praia, fazer trilhas e passeios na natureza e pescar ao nascer do sol!
                             </p>
                         </div>
                     </div>
