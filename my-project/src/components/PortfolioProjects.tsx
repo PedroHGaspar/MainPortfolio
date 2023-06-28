@@ -7,7 +7,6 @@ import pic1 from "../components/assets/pic1.jpeg";
 import pic2 from "../components/assets/pic2.jpg";
 import login1 from "../components/assets/login1.png";
 import login2 from "../components/assets/login2.png";
-import snake from "../components/assets/snake.png";
 import React from "react";
 import './style.css';
 
@@ -75,18 +74,6 @@ export const portfolio: PortfolioProjects[] = [
             "Um componente custom feito em React.js puro com comunicação e inserção de dados no Firebase com criptografia para LGPD.",
             "Responsividade total para todos os dispositivos.",
             "Projeto em andamento em conjunto com 2 colegas, estamos desenvolvendo a ideia do que virá a seguir."
-        ],
-    },
-    {
-        tag: "Portfolio",
-        img: [
-            snake
-        ],
-        title: "Snake Game",
-        subtitle: "Um jogo da cobrinha feito no 1º semestre do curso de Desenvolvimentoi de Sistemas.",
-        text: [
-            "Meu primeiro projeto de todos em javascript puro.",
-            "Snake game feito com outros 2 colegas."
         ],
     },
 ];
