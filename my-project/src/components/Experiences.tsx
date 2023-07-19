@@ -41,7 +41,7 @@ export const experiences: Experience[] = [
     period: ["JUL 2023", "PRESENT"],
     text: [
       "Atuando como desenvolvedor Front-End na SOMMA Investimentos, a maior asset independente de investimentos do sul do Brasil.",
-      "Responsável pelo Front-End de todos os projetos internos. Desenvolvimento focado em HTML5, CSS3, PHP(back-end) e javascript."
+      "Responsável pelo desenvolvimento Front-End dos projetos internos. Desenvolvimento focado em HTML5, CSS3, PHP(back-end) e javascript."
     ],
   },
   {
