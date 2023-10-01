@@ -23,7 +23,7 @@ const About = () => {
           />
           <div className="z-20">
             <h2 className="pb-2 text-sm uppercase tracking-[15px] text-gray-400">
-              Software Engineer
+              Front End Dev
             </h2>
             <h1 className="px-10 text-3xl font-semibold md:text-4xl lg:text-6xl text-white">
               Pedro H. Gaspar

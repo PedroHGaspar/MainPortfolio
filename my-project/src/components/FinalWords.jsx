@@ -20,7 +20,7 @@ const FinalWords = () => {
 
                     <div className="flex flex-col items-center md:flex-row">
                         <div className="mt-4 md:mt-0 space-y-10 px-0 md:px-10 md:py-0">
-                            <p className="font-semibold text-2xl text-white font-sans">
+                            <p className="font-semibold text-2xl text-white font-sans leading-10">
                                 Atualmente estou focado em 3 coisas: <br /> <br />
                                 • Experiência <br />
                                 • Evolução <br />

@@ -7,7 +7,7 @@ const Whoami = () => {
     return (
         <>
 
-            <section id="about" className="container mx-auto flex-1 px-1 md:px-4" style={{ maxWidth: "1320px", margin: "0 auto"}}>
+            <section id="about" className="container mx-auto flex-1 px-1 md:px-4" style={{ maxWidth: "1320px", margin: "0 auto" }}>
                 <MotionDiv
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
@@ -35,11 +35,10 @@ const Whoami = () => {
                         </MotionDiv>
 
                         <div className="mt-20 md:mt-0 space-y-10 px-0 py-24 md:px-10 md:py-0">
-                            <p className="font-semibold text-2xl text-white font-sans">
-                                Eu sou um Desenvolvedor de Software apaixonado em criar e aprimorar. <br />
-                                Estou ansioso para aprender coisas novas e nunca terei medo de explorar novas tecnologias. <br />
-                                Atualmente tenho certa especialidade em Front End, e estou começando a estudar e aprimorar meu Back End com tecnologias como Node.js e Python. <br />
-                                Como pessoa, me divirto com boas companhias e gosto de ir à praia, fazer trilhas e passeios na natureza e pescar ao nascer do sol! <br />
+                            <p className="font-semibold text-2xl text-white font-sans leading-10">
+                                Estou focado em web applications e projetos front end. <br />
+                                Atualmente tenho certa especialidade em Front End, e estou começando a estudar e aprimorar meu Back End com tecnologias como Node.js, Python e Firebase. <br />
+                                Como pessoa, me divirto com boas companhias e gosto de ir à praia, fazer trilhas e ouvir música! <br />
                             </p>
                         </div>
                     </div>
