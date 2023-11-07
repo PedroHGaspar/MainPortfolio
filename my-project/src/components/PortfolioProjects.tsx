@@ -7,6 +7,8 @@ import pic1 from "../components/assets/pic1.jpeg";
 import pic2 from "../components/assets/pic2.jpg";
 import login1 from "../components/assets/login1.png";
 import login2 from "../components/assets/login2.png";
+import petflix1 from "../components/assets/petflix1.jpg";
+import petflix2 from "../components/assets/petflix2.jpg";
 import React from "react";
 import './style.css';
 
@@ -74,6 +76,21 @@ export const portfolio: PortfolioProjects[] = [
             "Um componente custom feito em React.js puro com comunicação e inserção de dados no Firebase com criptografia para LGPD.",
             "Responsividade total para todos os dispositivos.",
             "Projeto em andamento em conjunto com 2 colegas, estamos desenvolvendo a ideia do que virá a seguir."
+        ],
+    },
+    {
+        tag: "Portfolio",
+        img: [
+            petflix1,
+            petflix2
+        ],
+        title: "Petflix",
+        subtitle: "Uma desafio proposto para o Mundo SENAI.",
+        text: [
+            "Um clone simples do netflix feito em React, aonde eu guardo os links dos vídeos no Firebase e cada banner tem seu próprio vídeo.",
+            "Responsividade total para todos os dispositivos.",
+            "Os vídeos são simples e a proposta era fazer um clone simples para o netflix voltado para pets!!",
+            "Veja aqui: https://petflix-ten.vercel.app/"
         ],
     },
 ];
